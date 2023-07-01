@@ -9,43 +9,30 @@
 </head>
 
 <body>
-    <h1>Tic Tac Toe</h1>
-    <br>
-    <div>
-        Giliran: <span id="span-giliran">O</span>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="giliran">
+            Giliran: <span id="span-giliran">O</span>
+        </div>
+        <div id="tombol-OX">
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+            <button class="tombol-papan"></button>
+        </div>
+        <div id="div-pemenang" hidden>Selamat bagi <span id="span-pemenang"></span>, kamu menang!</div>
+        <div id="div-seri" hidden>Sayang sekali, hasilnya <span id="span-seri">Seri</span>.</div>
+        <button id="tombol-refresh">Refresh</button>
+        <footer>
+            <p>Hak Cipta &copy; 2023 Rozy corp.</p>
+        </footer>
     </div>
-    <!-- <button id="tombol-ubah-giliran">ubah giliran</button> -->
-    <div id="tombol-OX">
-        <div id="div-tombol0x">
-            <button class="tombol-00 tombol-papan"></button>
-            <button class="tombol-01 tombol-papan"></button>
-            <button class="tombol-02 tombol-papan"></button>
-        </div>
-        <div id="div-tombol1x">
-            <button class="tombol-10 tombol-papan"></button>
-            <button class="tombol-11 tombol-papan"></button>
-            <button class="tombol-12 tombol-papan"></button>
-        </div>
-        <div id="div-tombol2x">
-            <button class="tombol-20 tombol-papan"></button>
-            <button class="tombol-21 tombol-papan"></button>
-            <button class="tombol-22 tombol-papan"></button>
-        </div>
-    </div>
-    <br>
-    <button id="tombol-refresh">Refresh</button>
-    <br>
-    <div id="div-pemenang" hidden>Selamat bagi <span id="span-pemenang"></span>, kamu menang!</div>
-    <div id="div-seri" hidden>Sayang sekali, hasilnya <span id="span-seri">Seri</span>.</div>
-
-    <footer>
-        <p>
-            Hak Cipta &copy; 2023 Rozy corp.
-        </p>
-    </footer>
-    <script src="scripts/main.js">
-
-    </script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
