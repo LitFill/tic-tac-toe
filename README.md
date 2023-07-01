@@ -1,5 +1,5 @@
 # tic-tac-toe
-repository containing source code for my tic tac toe project. Optimized for mobile devices.
+repository containing source code for my tic tac toe project.
 
 #links
 - repository: [tic-tac-toe](https://github.com/LitFill/tic-tac-toe/)
